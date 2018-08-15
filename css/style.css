@@ -1,0 +1,271 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding-top:auto;
+}
+
+
+/*navigation bar*/
+#mainNav{
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color:#292929;
+  }
+
+#mainNav .navbar-toggler {
+  font-size: 1rem;
+  padding: 11px;
+  color: #42DCA3;
+  border: 1px solid white;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 400;
+  color:#fff;
+  font-family:ink free;
+  border-bottom: 2px solid #42DCA3;
+  line-height: 1;
+}
+
+#mainNav .navbar-brand span{
+  font-family: ink free;
+  font-size: 4.2rem;
+  color: #42DCA3;
+  line-height: 1;
+}
+
+
+#mainNav .navbar-nav .nav-item  a{
+  color:#fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: ink free;
+}
+
+
+#mainNav .navbar-nav .nav-item a:hover {
+  color:#42DCA3;
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*header*/
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding:0;
+  text-align: center;
+  color: #000;
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+  url("../imgs/andrew35.jpg") no-repeat bottom center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.masthead .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.masthead .intro-body .brand-heading {
+  font-size: 4.4rem;
+   margin-top: 150px;
+   font-family: chiller;
+   color:#42DCA3;
+}
+
+.masthead .intro-body .intro-text {
+  font-size: 1.3rem;
+  font-family: ink free;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    height: 100%;
+    padding: 0;
+  }
+  .masthead. intro-body .brand-heading {
+    font-size: 3.8rem;
+  }
+  .masthead. intro-body .intro-text {
+    font-size: 1.4rem;
+  }
+}
+
+/*scroll circular button*/
+.btn-circle {
+  font-size: 1.7rem;
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  line-height: 45px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  border: 2px solid #42DCA3;
+  border-radius: 100% !important;
+  background: transparent;
+}
+
+.btn-circle:focus, .btn-circle:hover {
+  color:#42DCA3;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+/*Main content/ blog posts*/
+.post-title {
+  text-transform: none;
+  font-family: sans-serif;
+  color: #000;
+  font-size: 1.7rem;
+}
+.post-subtitle{
+  text-transform: none;
+  font-size: 1.4rem;
+}
+.post-preview > a {
+  color: #212529;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: #0085A1;
+}
+
+.post-preview > a > .post-title {
+  font-size: 1.9rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.post-preview > a > .post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+}
+
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: #0085A1;
+}
+
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 2.1rem;
+  }
+}
+
+section{
+  background:#c0c0c0;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+/*footer*/
+.footer{
+background:#262626;
+padding: 40px 0;
+}
+.social-media{
+  padding-top: 10px;
+}
+.social-media h2{
+  font-size: 26px;
+  color:#42DCA3;
+  font-family: futura;
+}
+
+ .social-media p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 25px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.social-media a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #42DCA3;
+}
+
+.social-media a:focus, a:hover {
+  text-decoration: none;
+  color: #1d9b6c;
+}
+
+/*social media buttons*/
+.btn {
+  font-family: sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.btn-default {
+  color: #42DCA3;
+  background-color: transparent;
+}
+
+.btn-default:focus, .btn-default:hover {
+  color: black;
+  border: 1px solid #42DCA3;
+  outline: none;
+  background-color: #42DCA3;
+}
+
+ul.banner-social-buttons {
+  margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+  ul.banner-social-buttons {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  ul.banner-social-buttons li {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
